@@ -1,16 +1,16 @@
 spring:
     profiles:
         active:
-            -  dev
+        - dev
 
 ---
 spring:
-    profiles:  dev    #  开发环境
+    profiles: dev    #  开发环境
     application:
-        name:  serviceCloud-config-server-dev
+        name: serviceCloud-config-server-dev
 
 ---
 spring:
-    profiles:  test    #  测试环境
+    profiles: test    #  测试环境
     application:
-        name:  serviceCloud-config-server-test
+        name: serviceCloud-config-server-test
