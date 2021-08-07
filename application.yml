@@ -4,12 +4,16 @@ spring:
         - dev
 
 ---
+server:
+    port: 6009
 spring:
     profiles: dev    #  开发环境
     application:
         name: serviceCloud-config-server-dev
 
 ---
+server:
+    port: 6009
 spring:
     profiles: test    #  测试环境
     application:
